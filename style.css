@@ -1,0 +1,42 @@
+body {
+	background-color: #888;
+}
+.hdr-wrppr h2 {
+    text-align: center;
+}
+/* input area */
+.inpt-wrppr label {
+    color: #fff;
+}
+.inpt-wrppr .form-control {
+    margin-bottom: 20px;
+}
+/* generated list Item */
+ul li:hover {
+    background: #eee;
+}
+#list li i:nth-child(1) {
+    display: none;
+}
+#list li i:nth-child(1) {
+    margin-right: 5px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ccc;
+}
+#list li i:nth-child(3) {
+    font-size: 15px;
+    line-height: 20px;
+    color: #ccc;
+}
+#list li:hover i {
+    color: #555;
+}
+.list-group-item {
+    display: flex;
+}
+#list .list-group-item p {
+    margin-bottom: 0px;
+    width: 100%;
+    margin-right: 5px;
+}
